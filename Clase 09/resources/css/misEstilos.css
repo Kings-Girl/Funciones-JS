@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+/*Menu Horizontal*/
+#banner{
+    display: inline-flex;
+    flex-direction: row;
+    text-decoration: none;
+    background-color: rgb(252, 175, 59);
+    width: 100%;
+   
+}
+#banner ul li a{
+    text-decoration: none;
+    color: rgb(129, 87, 9);
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#banner ul li{
+background-color: bisque;
+border-radius: 8px;
+box-shadow: chocolate 5px 3px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#imagen {
+     text-align: center;
+}
+
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+    margin: 2px 5px;
+    padding: 3px;
+    
+}
+main{
+    background-color: rgb(173, 147, 99);
+}
+main h2{
+    font-size: 28px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.miTarjeta {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;   
+}
+
+/*Clases de Jquery*/
+
+.fondo1{
+    background-color: rgb(141, 128, 6);
+}
+.fondo2{
+    background-color: white;
+}
+.vertical{
+    display: inline-flex;
+    flex-direction: column;
+}
+.horizontal{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
